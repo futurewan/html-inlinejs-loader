@@ -1,3 +1,4 @@
 ;(function(){
-  console.log('logger',+new Date())
+  var time = +new Date()
+  console.log('logger',time)
 })()
